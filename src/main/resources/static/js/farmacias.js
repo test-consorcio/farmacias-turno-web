@@ -181,6 +181,8 @@ function agregarComunasAVista(data) {
 
 		htmlFarmaciasTurno += "</div>";
 
+		htmlFarmaciasTurno += "<br>";
+
 	}
 
 	document.getElementById("divFarmacias").innerHTML = htmlFarmaciasTurno;
